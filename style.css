@@ -47,6 +47,14 @@ p {
     justify-content: space-between;
     padding: 2em 0;
 }
+.navlink {
+    transition: color 300ms;
+    cursor: pointer;
+}
+
+.navlink:hover {
+    color: var(--Softred);
+}
 
 .main {
     padding: 0 4%;
@@ -79,16 +87,17 @@ p {
     font-family: inherit;
     text-transform: uppercase;
     letter-spacing: .4em;
+    transition: background-color 300ms;
+    cursor: pointer;
 }
-
+.main_cta_btn:hover {
+    background-color: var(--Verydarkblue);
+}
 .main_side {
     background-color: var(--Verydarkblue);
     padding: 5% 2em;
     color: white;
     margin-bottom: 4.2em;
-}
-.main_side_title {
-    color: var(--Softorange);
 }
 
 .main_side_div:not(:last-child) {
@@ -98,6 +107,15 @@ p {
 .main_side_div {
     padding: 2.3em 0;
 }
+.main_side_div_title {
+    transition: color 300ms;
+    cursor: pointer;
+}
+
+.main_side_div_title:hover {
+    color: var(--Softorange);
+}
+
 
 .main_side_div_body {
     color: rgba(255,255,255,70%);
@@ -125,6 +143,16 @@ p {
 .main_recent_num {
     font-size: 2.2rem;
     color: var(--Grayishblue);
+}
+
+
+.main_recent_title {
+    transition: color 300ms;
+    cursor: pointer;
+}
+
+.main_recent_title:hover {
+    color: var(--Softred);
 }
 
 .main_recent_body {
